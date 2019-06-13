@@ -1,0 +1,10 @@
+addDefaultCharset UTF-8
+
+RewriteEngine on
+
+
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^.*$ - [L]
+RewriteRule ^.*$ index.php [L]

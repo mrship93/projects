@@ -35,8 +35,10 @@
 	'admin/category/update/([0-9]+)' => 'adminCategory/update/$1',
 	'admin/category/delete/([0-9]+)' => 'adminCategory/delete/$1',
 	'admin/category' => 'adminCategory/index',
-	
-	
+	'admin/order/create' => 'adminOrder/create',
+	'admin/order/update/([0-9]+)' => 'adminOrder/update/$1',
+	'admin/order/delete/([0-9]+)' => 'adminOrder/delete/$1',
+	'admin/order'=>'adminOrder/index',
 	
 	
 	'admin'=>'admin/index',
